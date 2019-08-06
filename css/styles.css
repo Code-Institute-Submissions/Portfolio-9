@@ -5,3 +5,15 @@
 .nav-item {
     font-size: 1.25rem;
 }
+
+
+/* Footer */
+
+footer{
+    color: white;
+}
+
+footer p{
+    font-size: 1.25rem;
+    margin: 0;
+}
