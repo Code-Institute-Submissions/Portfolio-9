@@ -1,4 +1,11 @@
+/* ---------------------------- All Pages */
+
+
 /* Header */
+
+/* Jumbotron */
+
+
 
 /* Navbar */
 
@@ -17,4 +24,28 @@ footer{
 footer p{
     font-size: 1.25rem;
     margin: 0;
+   
 }
+
+.footer-pad{
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+}
+
+
+/* Social/FontAwesome */
+.fa{
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ---------------------------- Home Page */
+
+
+/* ---------------------------- About Page */
+
+/* ---------------------------- Resume Page */
+
+/* ---------------------------- Contact Page */
