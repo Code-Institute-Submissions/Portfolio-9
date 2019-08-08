@@ -5,6 +5,20 @@
 
 /* Jumbotron */
 
+.jumbotron{
+    background-color: #007bff;
+    color: ivory;
+}
+
+.jumbotron hr{
+    border: 2px solid;
+    width: 28vw;
+}
+
+.lead{
+    text-transform: uppercase;
+}
+
 
 
 /* Navbar */
@@ -44,8 +58,19 @@ footer p{
 /* ---------------------------- Home Page */
 
 
+
+
 /* ---------------------------- About Page */
 
 /* ---------------------------- Resume Page */
 
 /* ---------------------------- Contact Page */
+
+
+
+
+/* ---------------------------- Colours */
+
+.white{
+    background-color: ivory;
+}
