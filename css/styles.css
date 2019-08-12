@@ -12,10 +12,10 @@ font-size: 1.2rem;
 .jumbotron{
     background-color: #007bff;
     color: ivory;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
-.jumbotron hr{
+hr{
     border: 2px solid;
     width: 28vw;
 }
@@ -31,6 +31,8 @@ font-size: 1.2rem;
 .nav-item {
     font-size: 1.25rem;
 }
+
+
 
 
 /* Footer */
@@ -68,6 +70,13 @@ footer p{
 
 .heading {
     text-transform: uppercase;
-    padding-bottom: 2vh;
 }
 
+.white{
+    color: whitesmoke;
+}
+
+.page-section{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}

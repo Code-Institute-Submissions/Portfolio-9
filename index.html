@@ -18,7 +18,7 @@
 
   <header>
     <!-- NAVBAR START -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
       <a class="navbar-brand" href="#">EC</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,8 +40,10 @@
         </ul>
       </div>
     </nav>
+    <!-- NAVBAR END -->
+
     <!-- Jumbotron Start -->
-    <div class="jumbotron jumbotron-fluid text-center jum-home">
+    <div class="jumbotron jumbotron-fluid text-center my-0">
       <div class="container">
         <h1 class="pt-3">Ethan Cundick</h1>
         <hr class="white">
@@ -51,58 +53,135 @@
 
     <!-- Jumbotron End -->
 
-    <!-- NAVBAR END -->
   </header>
-<main>
-<!-- About Start -->
-<div class="container">
-  <div class="row">
-    <div class="col-12">
-      <h3 class='text-center heading'>About</h3>
-      <p>I am a Fullstack Software Developer and Cloud Engineer. I have over 7 years of experience within the IT industry starting out as an apprentice and then making my way up to a Cloud Engineer. I am also studying a diploma in Fullstack Software
-        Development which I am doing in my free time.</p>
-        <p>I speciailise in Microsoft Azure for Cloud and HTML, CSS, JavaScript and Python for Development with Frameworks such as Bootstrap, Flask and Django.</p>
+  <main>
+    <!-- About Start -->
+    <div class="container-fluids bg-dark white  page-section">
+        <h3 class='text-center heading'>About</h3><hr>
+      <div class="row p-3">
+        <div class="col-10 col-lg-10 mx-auto">
+          <p>I am a Fullstack Software Developer and Cloud Engineer. I have over 7 years of experience within the IT
+            industry starting out as an apprentice and then making my way up to a Cloud Engineer. I am also studying a
+            diploma in Fullstack Software
+            Development which I am doing in my free time.</p>
+          <p>I speciailise in Microsoft Azure for Cloud and HTML, CSS, JavaScript and Python for Development with
+            Frameworks such as Bootstrap, Flask and Django.</p>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-<!-- /About End -->
+    <!-- /About End -->
 
-<!-- My Work Start -->
-<div class="container-fluid">
-  <h3 class='text-center heading'>My Work</h3>
-  <div class="row text-center">
-    <div class="col-md-4">
-      <h4>Project Name</h4>
-      <p class="tech-used"></p>
-      <p>About Project Lorem ipsum dolor sit amet consectetur, adipisicing elit. At praesentium veritatis reiciendis obcaecati hic cumque, accusamus optio suscipit quia iusto, quos quisquam consequuntur laudantium totam ex labore accusantium veniam quas?</p>
-      <a href="https://github.com/EthanCundick/" target="_blank"><i class="fa fa-github pb-2 fa-black"></i></a> <a href="http://" target="_blank"><i class="fa fa-laptop fa-black pl-4"></i></a>
+    <!-- My Work Start -->
+    <div class="container-fluid page-section">
+      <h3 class='text-center heading'>My Work</h3><hr>
+      <div class="row text-center  pt-4">
+        <div class="col-lg-4">
+          <h4>Project Name</h4>
+          <p class="tech-used">HTML, CSS, Bootstrap</p>
+          <p>About Project Lorem ipsum dolor sit amet consectetur, adipisicing elit. At praesentium veritatis reiciendis
+            obcaecati hic cumque, accusamus optio suscipit quia iusto, quos quisquam consequuntur laudantium totam ex
+            labore accusantium veniam quas?</p>
+          <a href="https://github.com/EthanCundick/" target="_blank"><i class="fa fa-github pb-2 fa-black"></i></a> <a
+            href="http://" target="_blank"><i class="fa fa-laptop fa-black pl-4"></i></a>
+        </div>
+        <div class="col-lg-4">
+          <h4>Project Name</h4>
+          <p class="tech-used">HTML, CSS, JavaScript</p>
+          <p>About Project Lorem ipsum dolor sit amet consectetur, adipisicing elit. At praesentium veritatis reiciendis
+            obcaecati hic cumque, accusamus optio suscipit quia iusto, quos quisquam consequuntur laudantium totam ex
+            labore accusantium veniam quas?</p>
+          <a href="https://github.com/EthanCundick/" target="_blank"><i class="fa fa-github pb-2 fa-black"></i></a> <a
+            href="http://" target="_blank"><i class="fa fa-laptop fa-black pl-4"></i></a>
+        </div>
+        <div class="col-lg-4">
+          <h4>Project Name</h4>
+          <p class="tech-used">HTML, CSS, JavaScript, jQuery</p>
+          <p>About Project Lorem ipsum dolor sit amet consectetur, adipisicing elit. At praesentium veritatis reiciendis
+            obcaecati hic cumque, accusamus optio suscipit quia iusto, quos quisquam consequuntur laudantium totam ex
+            labore accusantium veniam quas?</p>
+          <a href="https://github.com/EthanCundick/" target="_blank"><i class="fa fa-github pb-2 fa-black"></i></a> <a
+            href="http://" target="_blank"><i class="fa fa-laptop fa-black pl-4"></i></a>
+        </div>
+      </div>
     </div>
-    <div class="col-md-4">
-        <h4>Project Name</h4>
-        <p class="tech-used"></p>
-        <p>About Project Lorem ipsum dolor sit amet consectetur, adipisicing elit. At praesentium veritatis reiciendis obcaecati hic cumque, accusamus optio suscipit quia iusto, quos quisquam consequuntur laudantium totam ex labore accusantium veniam quas?</p>
-        <a href="https://github.com/EthanCundick/" target="_blank"><i class="fa fa-github pb-2 fa-black"></i></a> <a href="http://" target="_blank"><i class="fa fa-laptop fa-black pl-4"></i></a>
+
+    <!-- /My Work End -->
+
+    <!-- My Skills -->
+    <div class="container-fluid white text-center bg-dark page-section">
+      <h3 class='text-center heading'>Skills</h3><hr>
+      <div class="row pt-3 mx-auto h3-underline">
+        <div class="col-md-6 col-lg-3 p-3">
+          <i class="fa fa-code black"></i>
+          <h3 class="pt-4">Front End</h3>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
+        </div>
+        <div class="col-md-6 col-lg-3 p-3">
+          <i class="fa fa-server"></i>
+          <h3 class="pt-4">Back End</h3>
+          <p>Python</p>
+          <p>SQL</p>
+          <p>BASH</p>
+        </div>
+        <div class="col-md-6 col-lg-3 p-3">
+          <i class="fa fa-cloud"></i>
+          <h3 class="pt-4">Cloud</h3>
+          <p>Azure</p>
+          <p>AWS</p>
+          <p>Serverless</p>
+        </div>
+        <div class="col-md-6 col-lg-3 p-3">
+            <i class="fa fa-terminal"></i>
+            <h3 class="pt-4">DevOps</h3>
+            <p>Terraform</p>
+            <p>Puppet</p>
+            <p>Jenkins</p>
+          </div>
+      </div>
     </div>
-    <div class="col-md-4">
-        <h4>Project Name</h4>
-        <p class="tech-used"></p>
-        <p>About Project Lorem ipsum dolor sit amet consectetur, adipisicing elit. At praesentium veritatis reiciendis obcaecati hic cumque, accusamus optio suscipit quia iusto, quos quisquam consequuntur laudantium totam ex labore accusantium veniam quas?</p>
-        <a href="https://github.com/EthanCundick/" target="_blank"><i class="fa fa-github pb-2 fa-black"></i></a> <a href="http://" target="_blank"><i class="fa fa-laptop fa-black pl-4"></i></a>
-    </div>
-  </div>
-</div>
 
-<!-- /My Work End -->
+    <!-- /My Skills End -->
 
-<!-- My Skills -->
+    <!-- Contact Start -->
 
-<!-- /My Skills End -->
 
-<!-- Contact Start -->
+ <section class="page-section" id="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h3 class="mt-0">Let's Get In Touch!</h3>
+          <hr class="my-4">
+          <p class="text-muted mb-5">Ready to start your next project with us? Send us an email and we will get back to you as soon as possible!</p>
+        </div>
+      </div>
+        <div class="col-lg-12 mr-auto text-center">
+          <i class="fa fa-envelope fa-3x mb-3 text-muted"></i>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="formGroupExampleInput">Name</label>
+              <input type="text" class="form-control" name="name" placeholder="name" required>
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2">Email</label>
+              <input type="text" class="form-control" name="email" placeholder="email" required>
+            </div>
+            <div class="form-group">
+              <label for="Message">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3 placeholder="Message" name="content" required"></textarea>
+            </div>
+            <div id="toast"></div>
+            <button type="submit" class="btn btn-primary" id="submit" >Send</button>
+          </form>
+        </div>
+      </div>
+          </section>
 
-<!-- /Contact End -->
 
-</main>
+    <!-- /Contact End -->
+
+  </main>
 
   <!-- FOOTER START -->
   <footer class="footer mt-auto py-3  text-center bg-dark">
