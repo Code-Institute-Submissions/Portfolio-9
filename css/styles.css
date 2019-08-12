@@ -1,4 +1,8 @@
-/* ---------------------------- All Pages */
+/* ---------------------------- All */
+
+p{
+font-size: 1.2rem;
+}
 
 
 /* Header */
@@ -8,6 +12,7 @@
 .jumbotron{
     background-color: #007bff;
     color: ivory;
+    text-transform: uppercase
 }
 
 .jumbotron hr{
@@ -49,28 +54,20 @@ footer p{
 
 /* Social/FontAwesome */
 .fa{
-    font-size: 2rem;
+    font-size: 4rem;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
-
-/* ---------------------------- Home Page */
-
-
-
-
-/* ---------------------------- About Page */
-
-/* ---------------------------- Resume Page */
-
-/* ---------------------------- Contact Page */
-
-
-
-
-/* ---------------------------- Colours */
-
-.white{
-    background-color: ivory;
+.fa-black{
+    color: black;
 }
+
+/* Headings */
+
+.heading {
+    text-transform: uppercase;
+    padding-bottom: 2vh;
+}
+
