@@ -18,36 +18,38 @@
 
   <header>
     <!-- NAVBAR START -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top mt-0">
       <a class="navbar-brand" href="#">EC</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto px-3">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="mywork.html">My Work</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="resume.html">Resume</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
+  </div>
     <!-- NAVBAR END -->
 
     <!-- Jumbotron Start -->
     <div class="jumbotron jumbotron-fluid text-center my-0">
-      <div class="container">
-        <h1 class="pt-3">Ethan Cundick</h1>
-        <hr class="white">
-        <p class="lead">Cloud Engineer and Fullstack Web Developer</p>
+      <div class="container pad-top">
+        <h1 class="">Ethan Cundick</h1>
+        <hr class="">
+        <p class="lead d-none d-sm-block">Cloud Engineer and Fullstack Web Developer</p>
       </div>
     </div>
 
@@ -73,14 +75,12 @@
 
     <!-- My Work Start -->
     <div class="container-fluid page-section">
-      <h3 class='text-center heading'>My Work</h3><hr>
+      <h3 class='text-center heading'>My Work</h3><hr class="red"> 
       <div class="row text-center  pt-4">
         <div class="col-lg-4">
-          <h4>Project Name</h4>
+          <h4>Portfolio</h4>
           <p class="tech-used">HTML, CSS, Bootstrap</p>
-          <p>About Project Lorem ipsum dolor sit amet consectetur, adipisicing elit. At praesentium veritatis reiciendis
-            obcaecati hic cumque, accusamus optio suscipit quia iusto, quos quisquam consequuntur laudantium totam ex
-            labore accusantium veniam quas?</p>
+          <p>In this project I built a porflio to showcase my work.</p>
           <a href="https://github.com/EthanCundick/" target="_blank"><i class="fa fa-github pb-2 fa-black"></i></a> <a
             href="http://" target="_blank"><i class="fa fa-laptop fa-black pl-4"></i></a>
         </div>
@@ -172,7 +172,7 @@
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3 placeholder="Message" name="content" required"></textarea>
             </div>
             <div id="toast"></div>
-            <button type="submit" class="btn btn-primary" id="submit" >Send</button>
+            <button type="submit" class="btn" id="submit" >Send</button>
           </form>
         </div>
       </div>
@@ -186,17 +186,7 @@
   <!-- FOOTER START -->
   <footer class="footer mt-auto py-3  text-center bg-dark">
     <div class="row">
-      <div class="col-md-4 footer-pad">
-        <p>Ethan Cundick</p>
-        <p>Fullstack Developer and Cloud Engineer.</p>
-      </div>
-      <div class="col-md-4 footer-pad">
-        <p>Get in touch</p>
-        <p>Call me on:<a href="tel:+07853989299"> 07853989299</a> or <a href="mailto:ecundick@protonmail.com">Email
-            Me.</a></p>
-        <p>
-      </div>
-      <div class="col-md-4">
+      <div class="col-md-4 mx-auto">
         <a href="https://github.com/EthanCundick/" target="_blank"><i class="fa fa-github pt-2"></i></a>
       </div>
     </div>

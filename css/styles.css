@@ -4,20 +4,20 @@ p{
 font-size: 1.2rem;
 }
 
+.pad-top{
+    padding-top: 15vh;
+}
+
+
 
 /* Header */
 
-/* Jumbotron */
 
-.jumbotron{
-    background-color: #007bff;
-    color: ivory;
-    text-transform: uppercase;
-}
 
 hr{
     border: 2px solid;
-    width: 28vw;
+    width: 15vw;
+    color: crimson;
 }
 
 .lead{
@@ -29,11 +29,9 @@ hr{
 /* Navbar */
 
 .nav-item {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
+   
 }
-
-
-
 
 /* Footer */
 
@@ -79,4 +77,25 @@ footer p{
 .page-section{
     padding-top: 5vh;
     padding-bottom: 5vh;
+}
+
+/* Jumbotron */
+
+.jumbotron{
+    color: ivory;
+    text-transform: uppercase;
+    background-image: url(../img/network-2402637_1280.jpg);
+    background-size: cover;
+    height: 50vh;
+
+}
+
+.red{
+    color: crimson;
+}
+
+
+.btn {
+    background-color: crimson;
+    color: white;
 }
