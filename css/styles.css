@@ -32,6 +32,18 @@ hr{
     font-size: 1.2rem;
 }
 
+.nav-link{
+    padding: 1.5vh;
+}
+
+.nav-item:hover .nav-link { 
+    background-color: crimson; 
+}
+
+.navbar{
+    padding: 0px;
+}
+
 /* Footer */
 
 footer{
@@ -98,3 +110,8 @@ footer p{
     background-color: crimson;
     color: white;
 }
+
+a:hover i{
+    color: crimson;
+}
+
