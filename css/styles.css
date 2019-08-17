@@ -1,30 +1,15 @@
-/* ---------------------------- All */
+/* ---------------------------- Header */
 
-p{
-font-size: 1.2rem;
-}
+/* Jumbotron */
 
-.pad-top{
-    padding-top: 15vh;
-}
-
-
-
-/* Header */
-
-
-
-hr{
-    border: 2px solid;
-    width: 15vw;
-    color: crimson;
-}
-
-.lead{
+.jumbotron{
+    color: ivory;
     text-transform: uppercase;
+    background-image: url(../img/network-2402637_1280.jpg);
+    background-size: cover;
+    height: 50vh;
+
 }
-
-
 
 /* Navbar */
 
@@ -34,8 +19,8 @@ hr{
 
 .nav-link{
     padding: 1.5vh;
+    
 }
-
 .nav-item:hover .nav-link { 
     background-color: crimson; 
 }
@@ -44,7 +29,7 @@ hr{
     padding: 0px;
 }
 
-/* Footer */
+/* ---------------------------- Footer */
 
 footer{
     color: white;
@@ -63,6 +48,44 @@ footer p{
 }
 
 
+/* ---------------------------- Contact */
+
+
+.btn {
+    background-color: crimson;
+    color: white;
+}
+
+.btn:hover {
+    background-color: crimson;
+    color: white;
+    font-weight: 900;
+}
+
+/* ---------------------------- All */
+
+p{
+    font-size: 1.2rem;
+}
+    
+.pad-top{
+     padding-top: 15vh;
+}
+    
+
+.page-section{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.white{
+    color: whitesmoke;
+}
+
+.red{
+    color: crimson;
+}
+
 /* Social/FontAwesome */
 .fa{
     font-size: 4rem;
@@ -71,47 +94,25 @@ footer p{
     color: white;
 }
 
-.fa-black{
-    color: black;
-}
-
-/* Headings */
-
-.heading {
-    text-transform: uppercase;
-}
-
-.white{
-    color: whitesmoke;
-}
-
-.page-section{
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-}
-
-/* Jumbotron */
-
-.jumbotron{
-    color: ivory;
-    text-transform: uppercase;
-    background-image: url(../img/network-2402637_1280.jpg);
-    background-size: cover;
-    height: 50vh;
-
-}
-
-.red{
-    color: crimson;
-}
-
-
-.btn {
-    background-color: crimson;
-    color: white;
+.fa-grey{
+    color: #343a40;
 }
 
 a:hover i{
     color: crimson;
 }
 
+.lead{
+    text-transform: uppercase;
+}
+
+hr{
+    border: 2px solid;
+    width: 15vw;
+    color: crimson;
+}
+/* Headings */
+
+.heading {
+    text-transform: uppercase;
+}
